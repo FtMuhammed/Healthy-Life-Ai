@@ -1,0 +1,117 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+}
+
+.container {
+    width: 90%;
+    margin: auto;
+    overflow: hidden;
+}
+
+/* Header */
+.header {
+    background: #333;
+    color: #fff;
+    padding: 1rem 0;
+}
+
+.header .logo {
+    max-width: 150px;
+    display: inline-block;
+}
+
+.header .nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+.header .nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+.header .nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+/* Hero Section */
+.hero {
+    background: #0078d4;
+    color: #fff;
+    padding: 2rem 0;
+    text-align: center;
+}
+
+.hero .btn {
+    background: #fff;
+    color: #0078d4;
+    padding: 0.5rem 1rem;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+.hero .btn:hover {
+    background: #005fa3;
+    color: #fff;
+}
+
+/* About Section */
+.about {
+    padding: 2rem 0;
+    background: #f4f4f4;
+}
+
+/* Contact Section */
+.contact form input,
+.contact form textarea,
+.contact form button {
+    width: 100%;
+    margin-bottom: 1rem;
+    padding: 0.5rem;
+    font-size: 1rem;
+}
+
+.contact form button {
+    background: #0078d4;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+/* Chatbot Section */
+.chatbot-box {
+    background: #f4f4f4;
+    border: 1px solid #ddd;
+    padding: 1rem;
+    max-width: 600px;
+    margin: auto;
+}
+
+#chat-window {
+    height: 300px;
+    overflow-y: auto;
+    background: #fff;
+    border: 1px solid #ddd;
+    padding: 1rem;
+    margin-bottom: 1rem;
+}
+
+.message {
+    margin-bottom: 1rem;
+}
+
+.message.bot {
+    color: #0078d4;
+    font-weight: bold;
+}
+
+#user-input {
+    width: calc(100% - 80px);
+    margin-right: 10px;
+}
